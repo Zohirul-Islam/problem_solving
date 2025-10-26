@@ -1,4 +1,5 @@
 function removeDuplicates(nums) {
+     nums.sort((a, b) => a - b);
   if (nums.length === 0) return 0;
 
   let i = 0;
